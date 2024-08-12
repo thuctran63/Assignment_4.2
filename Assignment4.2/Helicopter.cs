@@ -14,9 +14,6 @@ namespace Assignment4._2
 
         public Helicopter(string id,string model, double cruiseSpeed, double emptyWeight, double maxTakeoff, double fuelCapacity, double range) : base(id,model, cruiseSpeed, emptyWeight, maxTakeoff, fuelCapacity)
         {
-
-            if (maxTakeoff > emptyWeight * 1.5) throw new ArgumentException("Max takeoff weight exceeds 1.5 times the empty weight.");
-
             Range = range;
         }
 
@@ -24,10 +21,5 @@ namespace Assignment4._2
         {
             Console.WriteLine("roated wing");
         } 
-
-        protected override bool ValidateID(string id)
-        {
-            return id.Length == 7 && id.StartsWith("RW") && id.Substring(2).All(char.IsDigit);
-        }
     }
 }

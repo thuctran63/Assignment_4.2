@@ -15,9 +15,11 @@ namespace Assignment4._2
         public double MaxTakeoffWeight { get; set; }
         public double FuelCapacity { get; set; }
 
-        public Airplane(string ID,string model, double cruiseSpeed, double emptyWeight, double maxTakeoff, double fuelCapacity)
+        public Airplane(string id,string model, double cruiseSpeed, double emptyWeight, double maxTakeoff, double fuelCapacity)
         {
-            this.ID = ID;
+     
+
+            this.ID = id;
             this.Model = model;
             this.CruiseSpeed = cruiseSpeed;
             this.EmptyWeight = emptyWeight;
@@ -25,7 +27,7 @@ namespace Assignment4._2
             this.FuelCapacity = fuelCapacity;
 
         }
-        protected abstract bool ValidateID(string id);
+
         public abstract void Fly();
     }
 }

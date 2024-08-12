@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Assignment4.2\\Assignment4.2\\Assignment4.2.csproj": {}
+    "D:\\Code\\C#\\Assignment4.2\\Assignment4.2\\Assignment4.2.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Assignment4.2\\Assignment4.2\\Assignment4.2.csproj": {
+    "D:\\Code\\C#\\Assignment4.2\\Assignment4.2\\Assignment4.2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Assignment4.2\\Assignment4.2\\Assignment4.2.csproj",
+        "projectUniqueName": "D:\\Code\\C#\\Assignment4.2\\Assignment4.2\\Assignment4.2.csproj",
         "projectName": "Assignment4.2",
-        "projectPath": "D:\\C#\\Assignment4.2\\Assignment4.2\\Assignment4.2.csproj",
-        "packagesPath": "C:\\Users\\vytra\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Assignment4.2\\Assignment4.2\\obj\\",
+        "projectPath": "D:\\Code\\C#\\Assignment4.2\\Assignment4.2\\Assignment4.2.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\C#\\Assignment4.2\\Assignment4.2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vytra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
